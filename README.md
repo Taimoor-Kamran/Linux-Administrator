@@ -1,5 +1,7 @@
 # Linux-Administrator
 
+Linux is a reliable, open-source operating system first released in 1991. Initially designed for computers, Linux has expanded far beyond desktops and now powers a wide range of systems, including servers, smartphones, automobiles, cloud infrastructure, and modern networking devices.
+
 ## Pentesting Tools
 
 ### Documentation

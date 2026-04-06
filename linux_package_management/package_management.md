@@ -1,6 +1,6 @@
 # 📦 Package Management in Linux
 
-# Introduction
+## Introduction
 
 Package management in Linux is the process of installing, updating, upgrading, configuring, and removing software using package managers. Different Linux distributions use different package management systems.
 
@@ -41,7 +41,7 @@ Package management in Linux is the process of installing, updating, upgrading, c
 - High-level tools → handle dependencies automatically.
 - Low-level tools → manage packages directly.
 
-[YUM Package Manager](yum.md)
-[RPM Package Manager](rpm.md)
-[DNF Package Manager](dnf.md)
-[APT Package Manager](apt.md)
+1. [YUM Package Manager](yum.md)
+2. [RPM Package Manager](rpm.md)
+3. [DNF Package Manager](dnf.md)
+4. [APT Package Manager](apt.md)

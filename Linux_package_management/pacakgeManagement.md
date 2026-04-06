@@ -40,3 +40,31 @@ Package management in Linux is the process of installing, updating, upgrading, c
 
 - High-level tools → handle dependencies automatically.
 - Low-level tools → manage packages directly.
+
+## APT (Advanced Package Tool) — Ubuntu/Debian
+
+APT = Advanced Package Tool
+
+APT is the default package manager for Debian-based systems like Debian, Ubuntu, and Linux Mint. It installs, updates, upgrades, and removes packages while automatically handling dependencies from online repositories.
+
+# basic commands
+
+apt install package_name
+
+# Install a package.
+
+apt update
+
+# Update package repository list.
+
+apt upgrade
+
+# Upgrade installed packages.
+
+apt remove package_name
+
+# Remove a package.
+
+apt search package_name
+
+Search for a package.

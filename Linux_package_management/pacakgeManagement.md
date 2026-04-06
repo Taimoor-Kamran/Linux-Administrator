@@ -1,9 +1,34 @@
 # Pacakge Management In Linux
 
-Linux Distribution 
+Package management in Linux is the process of installing, updating, upgrading, configuring, and removing software using package managers. Different Linux distributions use different package management systems.
 
-Ubuntu / Debian
-RedHat (Red Hat Enterprise Linux - RHEL)/ CentOS
+## Linux Distribution 
+
+### Debian-Based Distributions
+
+- Ubuntu
+- Debian
+- Linux Mint
+
+### Package Tools
+
+- apt
+- dpkg
+
+## Red Hat-Based Distributions
+
+### Red Hat Enterprise Linux (RHEL)
+
+- CentOS
+- Rocky Linux
+- AlmaLinux
+- Fedora
+
+### Package Tools
+
+- yum
+- dnf
+- rpm
 
 # 🔧 Package Managers Overview
 

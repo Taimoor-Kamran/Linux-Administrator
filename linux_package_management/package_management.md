@@ -33,11 +33,12 @@ Package management in Linux is the process of installing, updating, upgrading, c
 
 ## 🔧 Package Managers Overview
 
-- Distribution     | High-Level Tool | Low-Level Tool
-  |----------------|-----------------|--------------|
-- Ubuntu/Debian    | apt	         | dpkg
-  |----------------|-----------------|--------------|
-- RHEL/CentOS      | yum / dnf	     | rpm
+ Distribution     | High-Level Tool | Low-Level Tool
+ |----------------|-----------------|--------------|
+ Ubuntu/Debian    | apt	            | dpkg
+ |----------------|-----------------|--------------|
+ RHEL/CentOS      | yum / dnf	    | rpm
+ |----------------|-----------------|--------------|
 
 - High-level tools → handle dependencies automatically.
 - Low-level tools → manage packages directly.

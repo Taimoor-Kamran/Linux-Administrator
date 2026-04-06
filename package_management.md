@@ -97,7 +97,9 @@ Options:
 
 v → verbose output
 h → shows progress bar
-Remove a Package
+
+### Remove a Package
+
 - sudo rpm -e package_name
 Query Installed Packages
 rpm -qa

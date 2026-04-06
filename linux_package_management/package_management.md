@@ -45,3 +45,4 @@ Package management in Linux is the process of installing, updating, upgrading, c
 2. [RPM Package Manager](rpm.md)
 3. [DNF Package Manager](dnf.md)
 4. [APT Package Manager](apt.md)
+4. [DPKG Package Manager](dpkg.md)

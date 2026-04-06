@@ -16,12 +16,14 @@ Package management in Linux is the process of installing, updating, upgrading, c
 
 1. apt
 2. dpkg
-3. Red Hat-Based Distributions
-4. Red Hat Enterprise Linux (RHEL)
-5. CentOS
-6. Rocky Linux
-7. AlmaLinux
-8. Fedora
+
+## Red Hat-Based Distributions
+
+1. Red Hat Enterprise Linux (RHEL)
+2. CentOS
+3. Rocky Linux
+4. AlmaLinux
+5. Fedora
 
 ### Package Tools
 

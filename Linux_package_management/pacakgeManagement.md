@@ -38,5 +38,5 @@ Package management in Linux is the process of installing, updating, upgrading, c
 |RHEL/CentOS	|yum / dnf         |	rpm       |
 
 
-High-level tools → handle dependencies automatically.
-Low-level tools → manage packages directly.
+- High-level tools → handle dependencies automatically.
+- Low-level tools → manage packages directly.

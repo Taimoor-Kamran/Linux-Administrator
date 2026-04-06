@@ -101,6 +101,7 @@ h → shows progress bar
 ### Remove a Package
 
 - sudo rpm -e package_name
+
 Query Installed Packages
 rpm -qa
 Package Information

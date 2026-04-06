@@ -1,4 +1,4 @@
-## dpkg = Ubuntu/Debian Package Manager
+## DPKG = UBUNTU/DEBIAN Package Manager
 
 dpkg is a low-level package management tool used in Debian and Ubuntu systems.
 It installs, removes, and provides information about .deb packages but does not resolve dependencies automatically.

@@ -102,13 +102,19 @@ h → shows progress bar
 
 - sudo rpm -e package_name
 
-Query Installed Packages
+### Query Installed Packages
+
 rpm -qa
-Package Information
+
+### Package Information
+
 rpm -qi package_name
-View Configuration Files
+
+### View Configuration Files
+
 rpm -qc package_name
-🟦 DNF (Dandified YUM)
+
+## 🟦 DNF (Dandified YUM)
 
 dnf is the modern replacement for yum used in newer Red Hat-based systems.
 

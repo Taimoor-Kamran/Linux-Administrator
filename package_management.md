@@ -118,13 +118,17 @@ rpm -qc package_name
 
 dnf is the modern replacement for yum used in newer Red Hat-based systems.
 
-List Packages
+### List Packages
+
 - sudo dnf list available
 - sudo dnf list installed
-Install / Remove Packages
+
+### Install / Remove Packages
+
 - sudo dnf install package_name
 - sudo dnf remove package_name
-Update System
+
+### Update System
 - sudo dnf update
 - sudo dnf upgrade
 Search Packages

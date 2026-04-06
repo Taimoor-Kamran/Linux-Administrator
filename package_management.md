@@ -144,7 +144,8 @@ dnf is the modern replacement for yum used in newer Red Hat-based systems.
 
 apt is the primary package manager for Debian-based systems.
 
-Update Repository Information
+### Update Repository Information
+
 - sudo apt update
 
 Downloads the latest package list from repositories.

@@ -131,11 +131,16 @@ dnf is the modern replacement for yum used in newer Red Hat-based systems.
 ### Update System
 - sudo dnf update
 - sudo dnf upgrade
-Search Packages
+
+### Search Packages
+
 - sudo dnf search package_name
-Package Information
+
+### Package Information
+
 - sudo dnf info package_name
-🟩 APT (Advanced Package Tool) — Ubuntu/Debian
+
+## 🟩 APT (Advanced Package Tool) — Ubuntu/Debian
 
 apt is the primary package manager for Debian-based systems.
 

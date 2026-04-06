@@ -30,7 +30,7 @@ Package management in Linux is the process of installing, updating, upgrading, c
 - dnf
 - rpm
 
-# 🔧 Package Managers Overview
+# Package Managers Overview
 
 |Distribution   |High-Level Tool   |Low-Level Tool|
 |---------------|------------------|--------------|

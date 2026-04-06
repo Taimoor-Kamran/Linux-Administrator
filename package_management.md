@@ -150,16 +150,25 @@ apt is the primary package manager for Debian-based systems.
 
 Downloads the latest package list from repositories.
 
-Install Package
+### Install Package
+
 - sudo apt install package_name
-Remove Package
+
+### Remove Package
+
 - sudo apt remove package_name
-Remove Unused Dependencies
+
+### Remove Unused Dependencies
+
 - sudo apt autoremove
-Upgrade Installed Packages
+
+### Upgrade Installed Packages
+
 - sudo apt upgrade
-Search for Packages
-apt search apache
+
+### Search for Packages
+
+- apt search apache
 
 or
 

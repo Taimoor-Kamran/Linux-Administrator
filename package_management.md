@@ -172,4 +172,4 @@ Downloads the latest package list from repositories.
 
 or
 
-apt-cache search apache
+- apt-cache search apache

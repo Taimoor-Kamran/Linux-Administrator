@@ -41,30 +41,143 @@ Package management in Linux is the process of installing, updating, upgrading, c
 - High-level tools → handle dependencies automatically.
 - Low-level tools → manage packages directly.
 
-## APT (Advanced Package Tool) — Ubuntu/Debian
-
-APT = Advanced Package Tool
+## APT (Advanced Package Tool) — Main Package Manager
 
 APT is the default package manager for Debian-based systems like Debian, Ubuntu, and Linux Mint. It installs, updates, upgrades, and removes packages while automatically handling dependencies from online repositories.
 
-# basic commands
+### Linux Package Management Commands (WSL Ubuntu)
 
-apt install package_name
+## Update & Upgrade
 
-# Install a package.
+### Command Description 
 
-apt update
+- sudo apt update
 
-# Update package repository list.
+Refreshes the package list from repositories (doesn't install anything).
 
-apt upgrade
+- sudo apt upgrade
 
-# Upgrade installed packages.
+Upgrades all installed packages to their latest versions
 
-apt remove package_name
+- sudo apt full-upgrade
 
-# Remove a package.
+Like upgrade, but also removes conflicting packages if needed
 
-apt search package_name
+- sudo apt dist-upgrade
 
-Search for a package.
+Handles changing dependencies with new package versions
+
+## Install & Remove
+
+### Command Description
+
+- sudo apt install <package>
+
+Installs a package
+
+- sudo apt install <pkg1> <pkg2>
+
+Installs multiple packages at once
+
+- sudo apt remove <package>
+
+Removes a package but keeps its config files
+
+- sudo apt purge <package>
+
+Removes a package along with its config files
+
+- sudo apt autoremove
+
+Removes unused dependency packages automatically
+
+## Search & Info
+
+### Command Description 
+- apt & search <keyword>
+
+Searches for packages by keyword
+
+- apt show <package>
+
+Shows detailed info about a package
+
+- apt list --installed
+
+Lists all installed packages
+
+- apt list --upgradable
+
+Lists packages that have available updates
+
+- dpkg -l
+
+Lists all installed packages (low-level)
+
+- dpkg -l | grep <name>
+
+Filters installed packages by name
+
+## Clean Up
+
+### Command Description
+
+- sudo apt clean
+
+Clears the local cache of downloaded .deb files.
+
+- sudo apt autoclean
+
+Removes only outdated cached packages
+
+DPKG — Low-Level Package Tool
+
+### Command Description
+
+- sudo dpkg -i <file.deb>
+
+Installs a .deb package file manually.
+
+- sudo dpkg -r <package>
+
+Removes a package
+
+- sudo dpkg -P <package>
+
+Purges a package and its config files.
+
+- dpkg -s <package>
+
+Shows status/info of an installed package
+
+- dpkg -L <package>
+
+Lists all files installed by a package.
+
+- dpkg -S <file>
+
+Finds which package owns a specific file
+
+## SNAP — Universal Package Manager
+
+### Command Description
+
+- sudo snap install <package>
+
+Installs a snap package
+
+- sudo snap remove <package>
+
+Removes a snap package
+
+- snap list
+
+Lists all installed snap packages
+
+- sudo snap refresh
+
+Updates all snap packages
+
+- snap find <keyword>
+
+Searches for snap packages

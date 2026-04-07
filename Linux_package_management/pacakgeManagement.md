@@ -79,7 +79,7 @@ Installs a package
 
 Installs multiple packages at once
 
-- sudo apt remove <package>
+- sudo apt remove package-name
 
 Removes a package but keeps its config files
 

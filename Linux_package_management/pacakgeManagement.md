@@ -71,11 +71,11 @@ Handles changing dependencies with new package versions
 
 ### Command Description
 
-- sudo apt install <package>
+- sudo apt install package-name
 
 Installs a package
 
-- sudo apt install <pkg1> <pkg2>
+- sudo apt install package1 package2
 
 Installs multiple packages at once
 

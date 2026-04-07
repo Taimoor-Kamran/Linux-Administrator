@@ -139,7 +139,7 @@ DPKG — Low-Level Package Tool
 
 Installs a .deb package file manually.
 
-- sudo dpkg -r <package>
+- sudo dpkg -r package-name
 
 Removes a package
 

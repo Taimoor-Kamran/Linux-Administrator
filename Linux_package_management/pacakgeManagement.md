@@ -94,7 +94,8 @@ Removes unused dependency packages automatically
 ## Search & Info
 
 ### Command Description 
-- apt & search <keyword>
+
+- apt & search keyword
 
 Searches for packages by keyword
 

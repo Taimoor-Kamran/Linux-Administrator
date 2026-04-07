@@ -155,7 +155,7 @@ Shows status/info of an installed package
 
 Lists all files installed by a package.
 
-- dpkg -S <file>
+- dpkg -S file-name
 
 Finds which package owns a specific file
 

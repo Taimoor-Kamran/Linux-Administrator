@@ -99,7 +99,7 @@ Removes unused dependency packages automatically
 
 Searches for packages by keyword
 
-- apt show <package>
+- apt show package-name
 
 Shows detailed info about a package
 

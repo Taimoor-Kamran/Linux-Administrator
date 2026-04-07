@@ -115,7 +115,7 @@ Lists packages that have available updates
 
 Lists all installed packages (low-level)
 
-- dpkg -l | grep <name>
+- dpkg -l | grep name
 
 Filters installed packages by name
 

@@ -135,7 +135,7 @@ DPKG — Low-Level Package Tool
 
 ### Command Description
 
-- sudo dpkg -i <file.deb>
+- sudo dpkg -i file.deb
 
 Installs a .deb package file manually.
 

@@ -143,15 +143,15 @@ Installs a .deb package file manually.
 
 Removes a package
 
-- sudo dpkg -P <package>
+- sudo dpkg -P package-name
 
 Purges a package and its config files.
 
-- dpkg -s <package>
+- dpkg -s package-name
 
 Shows status/info of an installed package
 
-- dpkg -L <package>
+- dpkg -L package-name
 
 Lists all files installed by a package.
 

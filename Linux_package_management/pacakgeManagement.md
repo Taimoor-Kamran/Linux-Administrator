@@ -83,7 +83,7 @@ Installs multiple packages at once
 
 Removes a package but keeps its config files
 
-- sudo apt purge <package>
+- sudo apt purge package-name
 
 Removes a package along with its config files
 

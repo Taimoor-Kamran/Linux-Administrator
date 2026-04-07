@@ -163,11 +163,11 @@ Finds which package owns a specific file
 
 ### Command Description
 
-- sudo snap install <package>
+- sudo snap install package-name
 
 Installs a snap package
 
-- sudo snap remove <package>
+- sudo snap remove package-name
 
 Removes a snap package
 
@@ -179,6 +179,6 @@ Lists all installed snap packages
 
 Updates all snap packages
 
-- snap find <keyword>
+- snap find keyword
 
 Searches for snap packages
